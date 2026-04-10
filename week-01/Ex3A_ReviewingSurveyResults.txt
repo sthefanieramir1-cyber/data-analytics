@@ -1,0 +1,123 @@
+1. What conclusion can you reach about the responses to this question?
+
+Most students focus on having their materials ready like notes, camera, and mic. The majority seem to have a pre class setup routine going on.
+
+2. Is the default summary or visualization helpful? How could it be improved?
+
+The word cloud is somewhat helpful to spot common themes but not great. Single words like note and sure get too big even if they are not that meaningful. A bar 
+chart grouping similar themes would be way clearer.
+
+3. For questions with an "Other" option, where can you find the actual text of those responses? Do you notice anything that might be tricky about analyzing these?
+
+Not, this is a written response question so there is no Other option here.
+
+4. For questions calling for a written response, what challenges do you notice about finding trends or patterns in the answers provided?
+
+The answers are all over the place and hard to group. Some people write one sentence, some write a whole paragraph. You basically have to read every single response manually to find any real patterns which takes a lot of time.
+
+5. Now that you can see the responses, how might you recommend rephrasing this question or the response options in a future survey?
+
+What specific steps do you take in the 5 minutes before class to make sure you are prepared? With checkboxes like check notes and materials, test camera and mic, log into the platform, other. That way answers are easier to compare.
+
+Question 2: Do you have a second monitor connected to your computer?
+
+1. What conclusion can you reach about the responses to this question?
+
+60 percent said Yes and 40 percent said Other. More than half have a second monitor which is useful for the instructor to know when designing screen layouts.
+
+2. Is the default summary or visualization helpful? How could it be improved?
+
+The donut chart is clean and easy to read but the Other category is too vague. It would help to add a No option so people are not forced into Other just because they do not have one.
+
+3. For questions with an "Other" option, where can you find the actual text of those responses? Do you notice anything that might be tricky about analyzing these?
+
+You click More Details to see what people actually wrote. The tricky part is that Other could mean No, Sometimes, or It depends, so it is hard to put those answers into one clean category.
+
+4. For questions calling for a written response, what challenges do you notice about finding trends or patterns in the answers provided?
+Not applicable, this is a multiple choice question.
+
+5. Now that you can see the responses, how might you recommend rephrasing this question or the response options in a future survey?
+
+Do you have a second monitor connected to your computer? Options: Yes, No, Sometimes. Simple fix that avoids the vague Other problem.
+
+Question 3: Do you have an external keyboard and mouse?
+
+1. What conclusion can you reach about the responses to this question?
+80 percent said Yes and 20 percent said No. Most students have external peripherals which is good for the instructor to know.
+
+2. Is the default summary or visualization helpful? How could it be improved?
+The donut chart works fine here. It is simple and clear. No major improvements needed since there are only two real answer options.
+
+3. For questions with an "Other" option, where can you find the actual text of those responses? Do you notice anything that might be tricky about analyzing these?
+
+Other had 0 responses so nothing to look at here. Not an issue for this question at all.
+
+4. For questions calling for a written response, what challenges do you notice about finding trends or patterns in the answers provided?
+Not applicable, this is a multiple choice question.
+
+5. Now that you can see the responses, how might you recommend rephrasing this question or the response options in a future survey?
+
+This question is already clear and the options cover it well. No changes needed.
+
+Question 4: How do you plan to take notes for this class, in a doc on your computer, with pen and paper, or something else?
+
+1. What conclusion can you reach about the responses to this question?
+
+70 percent use pen and paper, 20 percent said Other, and 10 percent use their computer. Most students prefer handwritten notes which is something the instructor should keep in mind.
+
+2. Is the default summary or visualization helpful? How could it be improved?
+
+The donut chart is okay but the colors are a bit hard to tell apart. A simple bar chart with clear labels would be easier to read at a glance.
+
+3. For questions with an "Other" option, where can you find the actual text of those responses? Do you notice anything that might be tricky about analyzing these?
+
+Click More Details to see what people wrote for Other. The tricky part is that Other could mean a tablet, an app like Notion, or a mix of both methods, so it is not one clean category to work with.
+
+4. For questions calling for a written response, what challenges do you notice about finding trends or patterns in the answers provided?
+
+Not applicable, this is a multiple choice question.
+
+5. Now that you can see the responses, how might you recommend rephrasing this question or the response options in a future survey?
+
+How do you plan to take notes for this class? Options: Typed on my computer, Handwritten on paper, Tablet or stylus app, Mix of methods, Other. Adding more specific choices removes the guessing game with Other.
+
+Question 5: What is one question that you have right now, about this course generally or about a specific topic we will be talking about?
+
+1. What conclusion can you reach about the responses to this question?
+
+Most students either have no question yet or are curious about practice exercises and whether the coursework will be hard. The common theme seems to be wanting more hands on practice.
+
+2. Is the default summary or visualization helpful? How could it be improved?
+
+The word cloud is not very helpful here. Words like question and class dominate but do not actually tell us what students want to know. A simple list of the actual responses would be way more useful.
+
+3. For questions with an "Other" option, where can you find the actual text of those responses? Do you notice anything that might be tricky about analyzing these?
+
+Not applicable, this is a written response question so there is no Other option.
+
+4. For questions calling for a written response, what challenges do you notice about finding trends or patterns in the answers provided?
+
+Only 9 people responded and a lot of them just said they had no question. With such a small sample and open ended answers it is really hard to spot any real trends or patterns. You cannot do much with I have no question.
+
+5. Now that you can see the responses, how might you recommend rephrasing this question or the response options in a future survey?
+
+What is one thing you are curious or confused about regarding this course so far?
+
+ This wording is more inviting and specific which would push people to actually think of something instead of just saying no questions.
+
+6. Is there anything that surprised you about the survey responses?
+
+Yes, I was surprised that 70 percent of students take notes with pen and paper instead of on their computer. Since this is an online class I assumed most people would just type everything out. I was also surprised that 80 percent have an external keyboard and mouse, that is a pretty high number and shows students are actually setting up a real workspace at home.
+
+7. Looking at the responses to questions 1 and 5, are there any ideas you might try to include in your morning routine, or any questions that you are also curious about?
+
+Reading through question 1 made me think about being more intentional before class. I usually just log in right at the start but some students mentioned having their notes ready, water nearby, and their mic and camera tested beforehand. I might start doing that. For question 5, I am also curious about how the practice exercises will be structured since a few students brought that up too.
+
+8. Pretend you are the instructor. Is there anything you can learn from this survey to help in how you approach teaching this class?
+
+As the instructor I would take note that most students are writing by hand so I should probably slow down when going through material and give more time to copy things down rather than assuming everyone is just copying and pasting. I would also know that most students have a second monitor and an external keyboard so I can design activities that take advantage of that setup. And since students mentioned wanting more practice exercises I would make sure to build those into the class regularly.
+
+9. Again, pretend you are the instructor. Do you think it was helpful or not helpful to make this survey anonymous? Why or why not?
+
+I think it was helpful to make it anonymous. Students are more likely to be honest when they know the instructor cannot connect their answers to their name. For example someone might feel more comfortable saying they have no questions or admitting they are confused if there is no fear of being judged. The downside is that as the instructor I cannot follow up with specific students if I notice they need extra support. So it is a trade off but overall anonymity probably leads to more genuine responses which makes the data more useful.
+
