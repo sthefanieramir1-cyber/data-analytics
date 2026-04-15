@@ -1,0 +1,3 @@
+/*
+Shakila is a database used to collect information about A DVD rental store and for use by students and developers to practice SQL
+ */
