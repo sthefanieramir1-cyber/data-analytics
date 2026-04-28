@@ -5,7 +5,7 @@
 USE sample_sales;
 
 SELECT
-State,
+lo.State,
 MIN(Transaction_Date) as Start_Date, 
 MAX(Transaction_Date) as End_Date,
 SUM(Sale_Amount) as Revenue
@@ -13,17 +13,18 @@ FROM store_locations as lo
 INNER JOIN store_sales as sa
 ON lo.StoreId = sa.Store_ID
 WHERE State = 'Colorado'
-GROUP BY State
-
-
-
-
-
-
+GROUP BY State;
 
 -- What is the month by month revenue breakdown for the sales territory?
 
-
+SELECT
+DATE_FORMAT(Transaction_Date, '%Y-%m') as Monthly_Sales22,
+SUM(Sale_Amount) as Revenue
+FROM store_locations as lo
+INNER JOIN store_sales as sa
+ON lo.StoreId = sa.Store_ID
+WHERE State = 'Colorado'
+GROUP BY Monthly_Sales22 ;
 
 --  Provide a comparison of total revenue for the specific sales territory and the region it belongs to.
 --  What is the number of transactions per month and average transaction size by product category
