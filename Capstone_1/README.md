@@ -1,6 +1,6 @@
 # CAPSTONE_1
  
-## Sales Data Analysis — EmporiUm
+## Sales Data Analysis For EmporiUm
 This capstone project analyzes sales data from EmporiUm retail locations to
 uncover key business insights. The goal is to support data-driven decisions 
 by examining how revenue flows across products and stores over time.
