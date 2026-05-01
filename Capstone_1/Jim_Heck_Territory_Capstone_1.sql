@@ -1,8 +1,9 @@
+USE sample_sales;
 -- What is total revenue overall for sales in the assigned territory, plus the start date and end date
 -- that tell you what period the data covers?
 -- location
 
-USE sample_sales;
+-- Colorado in store locations Timelife Record from from 2022 to 2025
 SELECT
 	sl.State,
 	MIN(Transaction_Date) AS Start_Date, 
@@ -12,22 +13,21 @@ FROM
 store_locations AS sl
 INNER JOIN store_sales AS sa
 	ON sa.Store_ID = sl.StoreId
-WHERE State = 'Colorado'
-GROUP BY State;
+WHERE sl.State = 'Colorado'
+GROUP BY sl.State;
 
 -- What is the month by month revenue breakdown for the sales territory?
 
+-- Montly revenue for in store colorado locations from 2022 to 2025
 SELECT
-	DATE_FORMAT(Transaction_Date, '%Y-%m') AS Monthly_Sales_Co,
-	SUM(Sale_Amount) AS Revenue
+	DATE_FORMAT(sa.Transaction_Date, '%Y-%m') AS Monthly_Sales_Co,
+	SUM(sa.Sale_Amount) AS Revenue
 FROM  store_locations AS sl
 INNER JOIN store_sales AS sa
 	ON sa.Store_ID = sl.StoreId 
-
 WHERE  State = 'Colorado'
 GROUP BY Monthly_Sales_Co
 ORDER BY Monthly_Sales_Co;
-
 
 --  Provide a comparison of total revenue for the specific sales territory and the region it belongs to.
 
@@ -110,7 +110,7 @@ ORDER BY Monthly_Sales;
 -- Can you provide a ranking of in-store sales performance by each store in the sales territory, or a
 -- ranking of online sales performance by state within an online sales territory?
 
--- Subquery 
+-- Query and subquery for ranking in store colorado locations to calculate store performance
     
 SELECT
     Store_Location,
@@ -118,7 +118,7 @@ SELECT
     Total_Transactions,
     Total_Revenue,
     Average_Revenue,
-    RANK() OVER (ORDER BY Total_Revenue DESC) AS Store_Rank
+RANK() OVER (ORDER BY Total_Revenue DESC) AS Store_Rank
 FROM (
   SELECT
 	sa.Store_ID,
@@ -137,3 +137,10 @@ GROUP BY sa.Store_ID, sl.StoreLocation, Monthly_Sales
 ) AS CO_Store_Ranking
 ORDER BY Store_Rank, Monthly_Sales;
 -- What is your recommendation for where to focus sales attention in the next quarter?
+
+-- For next quarter, I suggest focusing sales attention on the Denver and Greeley stores
+--  These locations have consistently ranked in the top 10  for both total revenue 
+--  and average revenue over the last 5 months, making them the strongest 
+--  opportunities for continued growth.
+-- As well Schedule territory visits for Rescue Sedalia, New Castle and Milliken
+-- due of their flat growth, and below average transaction. 
