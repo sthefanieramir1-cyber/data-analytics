@@ -47,7 +47,7 @@ SELECT s.SupplierID, s.CompanyName AS SupplierName, COUNT(p.ProductID) AS ItemCo
 FROM Suppliers s
 JOIN Products p ON s.SupplierID = p.SupplierID
 GROUP BY s.SupplierID, s.CompanyName
-ORDER BY s.CompanyName ASC;
+ORDER BY s.CompanyName;
 
 -- Question 7: Write a query to find the list of all category names and
 -- the average price for items in each category.
@@ -56,7 +56,7 @@ SELECT c.CategoryName, ROUND(AVG(p.UnitPrice), 2) AS AveragePrice
 FROM Categories c
 JOIN Products p ON c.CategoryID = p.CategoryID
 GROUP BY c.CategoryID, c.CategoryName
-ORDER BY c.CategoryName ASC;
+ORDER BY c.CategoryName;
 
 -- Question 8: Write a query to find, for all suppliers that provide at least 5 items
 -- to Northwind, what is the name of each supplier and the number of items they supply.
@@ -66,7 +66,7 @@ FROM Suppliers s
 JOIN Products p ON s.SupplierID = p.SupplierID
 GROUP BY s.SupplierID, s.CompanyName
 HAVING COUNT(p.ProductID) >= 5
-ORDER BY s.CompanyName ASC;
+ORDER BY s.CompanyName;
 
 -- Question 9: Write a query to list products currently in inventory by the product id,
 -- product name, and inventory value (calculated by multiplying unit price by the number
