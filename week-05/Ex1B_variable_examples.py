@@ -5,8 +5,8 @@ customer_name = "Sthefanie Ramirez" # I wrote the name first name + last name, b
 
 customer_gender = "Female"
 
-customer_dob = "07/18/2002" # I wrotw this in the american format,
-#but maybe it should be in the european format, which is 18/07/2002.
+customer_dob = "07/18/2002" # I wrote this in the American format,
+#but maybe it should be in the European format, which is 18/07/2002.
 
 driver_license_number = "DL123456789"
 
