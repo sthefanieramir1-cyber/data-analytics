@@ -1,18 +1,22 @@
 customer_id = 12345
 
-customer_name = "Sthefanie Ramirez" # I wrote the name first name + last name, but
+customer_name = "juan luis" # I wrote the name first name + last name, but
 #maybe it should be last name + first name, which is Ramirez Sthefanie.
 
-customer_gender = "Female"
+customer_gender = "male"
 
-customer_dob = "07/18/2002" # I wrote this in the American format,
+customer_dob = "03/02/2099" # I wrote this in the American format,
 #but maybe it should be in the European format, which is 18/07/2002.
 
 driver_license_number = "DL123456789"
 
 auto_insurance_policy_number = "AP987654321"
 
+# My infomration 
 
+personal_name = "Sthefanie Ramirez"
+personal_city = "Guatemala City" 
+personal_state = "Guatemala"
 
 
 #  FULL LIST OF PYTHON RESERVED WORDS:
