@@ -1,0 +1,6 @@
+# Requirements and Conceptual Model
+Jeremiah Goode, Hritik Zope, 
+Customer, Dog, Location
+Customer-ID, Customer-Name, Customer-PhoneNumber,
+Dog-ID, Dog-Breed, Size, Dog-Name, Quanity
+Location-ID, Location-Address, Location-City, Location-State, Location-Zipcode
