@@ -19,3 +19,6 @@ sthef_movies.append('The Lord of the Rings, The Fellowship of the Ring')
 
 print(f'Updated list: {sorted(sthef_movies)}')
 
+# The result of append help me add a new movie to the list, but it does not change the original list. 
+
+
