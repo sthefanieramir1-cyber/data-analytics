@@ -7,7 +7,19 @@ contact_infodict = {
     "country":"USA"
 }
 
-print(f'{contact_infodict["name"]},\n{contact_infodict["address"]}, {contact_infodict["city"]}, \n{contact_infodict["state"]}, {contact_infodict["zip"]}, {contact_infodict["country"]}') 
+ # print(f'{contact_infodict["name"]},\n{contact_infodict["address"]}, {contact_infodict["city"]}, \n{contact_infodict["state"]}, {contact_infodict["zip"]}, {contact_infodict["country"]}') 
 
 contact_infodict.pop("name")
 
+# Add first and last name to the dictionary
+full_name = {
+    "First_name": "John",
+    "Last_name": "Doe"
+}
+
+# Merge the full name dictionary into the contact information dictionary
+contact_infodict.update(full_name)
+
+full_name.update({"honorific": "Dr."})
+
+print(full_name)
