@@ -1,0 +1,6 @@
+cd ~/repos
+mkdir python_data_science
+cd python_data_science/
+python3 -m venv venv
+source venv/bin/activate
+(venv) 
