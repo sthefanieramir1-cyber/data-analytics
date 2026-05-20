@@ -19,4 +19,4 @@ print(f"\nRandomized product order: {products}")
 
 # Random integer between 50 and 300
 daily_transactions = random.randint(50, 300)
-print(f"\nDaily transaction count: {daily_transactions}")
+print(f"\nDaily transaction count: {daily_transactions}") 
